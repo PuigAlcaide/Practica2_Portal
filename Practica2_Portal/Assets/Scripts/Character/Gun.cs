@@ -31,7 +31,6 @@ public class Gun : MonoBehaviour
             Reload();
         }
         
-        DisplayHUD();
     }
 
     void Shoot()
@@ -68,11 +67,7 @@ public class Gun : MonoBehaviour
         currentTotalAmmo -= bulletsAvailable;
         currentMagazineAmmo += bulletsAvailable;
     }
-
-    void DisplayHUD()
-    {
-        GameManager.Instance.UpdateAmmoText(currentMagazineAmmo, currentTotalAmmo);
-    }
+    
 
     public void Refill()
     {

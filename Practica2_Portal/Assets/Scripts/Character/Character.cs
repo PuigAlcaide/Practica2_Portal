@@ -70,57 +70,6 @@ public class Character : MonoBehaviour
         gun.Refill();
     }
 
-    public bool HasFullAmmo()
-    {
-        return gun.HasFullAmmo();
-    }
-
-    public void ReceiveDamage(int damage)
-    {
-
-        if (currentShield > 0)
-        {
-            int shieldDamage = (int) (damage * 0.75f);
-            int lifeDamage = (int) (damage * 0.25f);
-
-            currentShield = Mathf.Max(currentShield - shieldDamage, 0);
-            currentLife = Mathf.Max(currentLife - lifeDamage, 0);
-        }
-        else
-        {
-            currentLife = Mathf.Max(currentLife - damage, 0);
-            Die();
-        }
-        UpdateLifeAndShield();
-    }
-
-    public bool HasFullLife()
-    {
-        return currentLife == maxLife;
-    }
-
-    public void RefillLife()
-    {
-        currentLife = maxLife;
-        UpdateLifeAndShield();
-    }
-    
-    public bool HasFullShield()
-    {
-        return currentShield == maxShield;
-    }
-
-    public void RefillShield()
-    {
-        currentShield = maxShield;
-        UpdateLifeAndShield();
-    }
-
-    void UpdateLifeAndShield()
-    {
-        GameManager.Instance.UpdateLifeAndShieldText(currentLife, currentShield);
-    }
-
     public void Die()
     { 
         isDead = true;

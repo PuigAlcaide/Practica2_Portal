@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{feea35a2-18b7-8a08-9f2c-e028bcd22cbc}</ProjectGuid>
+    <ProjectGuid>{82665747-decb-54bf-be9b-e525b930f5ad}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,104 +45,92 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MobilityArts\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
-     <Compile Include="Assets\Scripts\Gun.cs" />
-     <Compile Include="Assets\Scripts\Items\Item.cs" />
-     <Compile Include="Assets\Scripts\Items\LifeItem.cs" />
-     <Compile Include="Assets\Scripts\Character.cs" />
-     <Compile Include="Assets\Scripts\ChangeLevel.cs" />
-     <Compile Include="Assets\Scripts\Drone\DronePart.cs" />
-     <Compile Include="Assets\Scripts\AreaShooting.cs" />
-     <Compile Include="Assets\Scripts\Items\ShieldItem.cs" />
-     <Compile Include="Assets\Scripts\DartBoardPart.cs" />
+     <Compile Include="Assets\Scripts\Turret.cs" />
+     <Compile Include="Assets\Scripts\Lava.cs" />
+     <Compile Include="Assets\Scripts\CubeButton.cs" />
+     <Compile Include="Assets\Scripts\Character\Character.cs" />
+     <Compile Include="Assets\Scripts\Button.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\KillDoor.cs" />
-     <Compile Include="Assets\Scripts\Drone\DronePropeller.cs" />
-     <Compile Include="Assets\Scripts\Drone\Drone.cs" />
-     <Compile Include="Assets\Scripts\Items\AmmoItem.cs" />
-     <Compile Include="Assets\Scripts\LavaPool.cs" />
      <Compile Include="Assets\Terrain\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
-     <Compile Include="Assets\Scripts\ActivateAreaShotting.cs" />
+     <Compile Include="Assets\Scripts\Character\Gun.cs" />
+     <Compile Include="Assets\Scripts\Dispenser.cs" />
+     <Compile Include="Assets\Scripts\TriggeredObject.cs" />
+     <Compile Include="Assets\Scripts\CameraPortals.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\MASH Virtual" />
-     <Folder Include="Assets\Rock Package\Texture" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\Terrain\Level2Terrain\3D Free Modular Kit\_Meshes\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <Folder Include="Assets\FPS\MuzzelFlash\MuzzlePrefabs" />
      <Folder Include="Assets\Terrain\Rabbits\Demo\Scenes" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Art\Animations" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
-     <Folder Include="Assets\MobilityArts\SciFiHandGun" />
+     <Folder Include="Assets\PortalAssets\portal-2-door\Materials" />
      <None Include="Assets\Terrain\StandardNoCulling.shader" />
+     <Folder Include="Assets\PortalAssets\PortalGun.fbm" />
+     <Folder Include="Assets\PortalAssets\portal-2-door\textures" />
+     <Folder Include="Assets\PortalAssets\Modelos\Maps\Maps\Materials" />
      <Folder Include="Assets\Art\Textures" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Art\Materials" />
-     <Folder Include="Assets\Items\Prefabs" />
      <Folder Include="Assets\Terrain\Level2Terrain\3D Free Modular Kit\_Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs\vfx" />
+     <Folder Include="Assets\PortalAssets\Modelos\PortalGun" />
      <Folder Include="Assets\Terrain\Scenes" />
-     <Folder Include="Assets\Gun\_prefabs\GunLight" />
-     <Folder Include="Assets\MobilityArts\SciFiHandGun\SciFiHandGun.fbm" />
-     <Folder Include="Assets\Gun\_materials" />
+     <Folder Include="Assets\PortalAssets\Modelos\PortalGun\Materials" />
      <Folder Include="Assets\FPS\Images" />
      <Folder Include="Assets\MASH Virtual\Sci Fi Doors\Prefab" />
      <Folder Include="Assets\Terrain\Rabbits\Texture" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
-     <Folder Include="Assets\MobilityArts\SciFiHandGun\Scripts" />
-     <Folder Include="Assets\Items\Models\Bottles" />
+     <Folder Include="Assets\PortalAssets\Modelos\Reflect Cube" />
+     <Folder Include="Assets\PortalAssets\Modelos\Boton Portal\portalbutton" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\Terrain\_TerrainAutoUpgrade" />
-     <Folder Include="Assets\FPS\Model_Animations_Textures\main character" />
-     <Folder Include="Assets\Gun\_prefabs" />
+     <Folder Include="Assets\PortalAssets\Modelos" />
+     <Folder Include="Assets\PortalAssets\portal-2-door\source" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\PortalAssets\Modelos\Materials" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\PortalAssets\portal-2-door" />
      <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\PortalAssets\Modelos\Maps" />
      <Folder Include="Assets\Terrain\Level2Terrain\3D Free Modular Kit\_Textures" />
+     <Folder Include="Assets\PortalAssets\Modelos\Boton Portal\portalbutton\Materials" />
      <Folder Include="Assets\Terrain\Meshes\Source" />
-     <Folder Include="Assets\MobilityArts\SciFiHandGun\SciFiHandGun" />
-     <Folder Include="Assets\MobilityArts\SciFiHandGun\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\Terrain\Rabbits\Model" />
+     <Folder Include="Assets\PortalAssets\Materials" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\Art" />
-     <Folder Include="Assets\MASH Virtual\Demo\Sci Fi Doors Demo" />
+     <Folder Include="Assets\PortalAssets\Modelos\Reflect Cube\Materials" />
+     <Folder Include="Assets\PortalAssets" />
      <Folder Include="Assets\Materials\bricks-mortar-unity" />
-     <Folder Include="Assets\Gun\_materials\GunTwo" />
      <Folder Include="Assets\Terrain\Rabbits\Demo" />
-     <Folder Include="Assets\Items\Models" />
-     <Folder Include="Assets\FPS\Model_Animations_Textures\ironSight_addon" />
-     <Folder Include="Assets\FPS\MuzzelFlash\Textures" />
+     <Folder Include="Assets\PortalAssets\portal-2-door\source\Materials" />
+     <Folder Include="Assets\PortalAssets\Modelos\Boton Portal" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs\portal" />
      <Folder Include="Assets\Terrain\Level2Terrain" />
-     <Folder Include="Assets\Items\Textures" />
-     <Folder Include="Assets\Models" />
+     <Folder Include="Assets\FPS\Model Drone" />
      <Folder Include="Assets\FPS" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs\player" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <Folder Include="Assets\FPS\Sounds" />
-     <Folder Include="Assets\FPS\MuzzelFlash" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <Folder Include="Assets\FPS\Prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <Folder Include="Assets\MASH Virtual\Demo" />
-     <Folder Include="Assets\Items\Materials" />
      <Folder Include="Assets\Terrain\Rabbits\Materials" />
-     <Folder Include="Assets\FPS\Sounds\playerSound" />
+     <Folder Include="Assets\PortalAssets\textures" />
      <Folder Include="Assets\MASH Virtual\Sci Fi Doors\Material" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <Folder Include="Assets\Rock Package\Materials" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <Folder Include="Assets\Models\Demo Scene" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs\platforms" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs\platform" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Art\Textures" />
+     <Folder Include="Assets\PortalAssets\Modelos\Maps\Maps" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs" />
      <Folder Include="Assets\Terrain\Level2Terrain\3D Free Modular Kit" />
      <Folder Include="Assets\FPS\Images\Materials" />
@@ -150,52 +138,42 @@
      <Folder Include="Assets\MASH Virtual\Sci Fi Doors" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
-     <Folder Include="Assets\Items\Animations" />
-     <Folder Include="Assets\MobilityArts" />
-     <Folder Include="Assets\Rock Package\Mesh" />
+     <Folder Include="Assets\PortalAssets\portalbutton" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
-     <Folder Include="Assets\Scripts\Drone" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <Folder Include="Assets\Terrain\Rabbits\Demo\Prefabs" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Art" />
-     <Folder Include="Assets\FPS\Model_Animations_Textures\main character\Textures" />
      <Folder Include="Assets\Terrain\Level2Terrain\3D Free Modular Kit\_Meshes" />
      <Folder Include="Assets\Terrain\Meshes" />
-     <Folder Include="Assets\Items" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\Art\Animations" />
-     <Folder Include="Assets\Models\Drone\Materials" />
-     <Folder Include="Assets\FPS\Model_Animations_Textures\ironSight_addon\Materials" />
+     <Folder Include="Assets\FPS\Model Drone\Drone\Materials" />
      <Folder Include="Assets\MASH Virtual\Sci Fi Doors\Texture" />
-     <Folder Include="Assets\Gun" />
      <Folder Include="Assets\Terrain\Rabbits\Demo\Scripts" />
      <Folder Include="Assets\Terrain\Level2Terrain\3D Free Modular Kit\Test_Map" />
      <Folder Include="Assets\Terrain\Meshes\Prefabs" />
+     <Folder Include="Assets\PortalAssets\portalbutton\Materials" />
+     <Folder Include="Assets\Scripts\Character" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets\MASH Virtual\Sci Fi Doors\Mesh" />
      <Folder Include="Assets\Terrain\Rabbits\Animations" />
      <Folder Include="Assets\Art\Materials" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Art\Meshes" />
-     <Folder Include="Assets\FPS\Model_Animations_Textures" />
      <Folder Include="Assets\Terrain" />
      <Folder Include="Assets\Terrain\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <Folder Include="Assets\Rock Package" />
-     <Folder Include="Assets\Models\Drone" />
+     <Folder Include="Assets\FPS\Model Drone\Drone" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\PortalAssets\Modelos\PortalGun\PortalGun.fbm" />
      <Folder Include="Assets\Terrain\Scene Teleportation Kit\Prefabs\ground" />
-     <Folder Include="Assets\FPS\MuzzelFlash\Materials" />
      <Folder Include="Assets\Terrain\Rabbits\Demo\Animator" />
      <Folder Include="Assets\MASH Virtual\Sci Fi Doors\Post Processing" />
-     <Folder Include="Assets\FPS\Model_Animations_Textures\main character\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <Folder Include="Assets\Rock Package\Prefabs" />
-     <Folder Include="Assets\Rock Package\Scene" />
-     <Folder Include="Assets\Scripts\Items" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\Terrain\Textures" />
+     <None Include="Assets\Scripts\ShaderPortal.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\Terrain\Rabbits" />
      <Folder Include="Assets\Terrain\Rabbits\Prefabs" />
@@ -449,10 +427,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\PackageCache\com.unity.visualscripting@1.9.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -821,79 +799,79 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\Unity Projects\Practica1_FPS\Practica1_FPS\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:\Unity Projects\Practica2_Portal\Practica2_Portal\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
