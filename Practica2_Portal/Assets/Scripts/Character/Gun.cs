@@ -55,24 +55,6 @@ public class Gun : MonoBehaviour
                 // Apply damage to the drone
                 drone.ReceiveDamage(damageAmount);
             }*/
-
-            // Check if the hit object has a DartBoard component
-            DartBoardPart dartBoardPart = hit.collider.GetComponent<DartBoardPart>();
-            if (dartBoardPart != null)
-            {
-                // Destroy the DartBoard
-                dartBoardPart.ReceiveDamage();
-            }
-
-            DronePart dronePart = hit.collider.GetComponent<DronePart>();
-            if (dronePart != null)
-            {
-                dronePart.DamageDrone();
-            }
-
-            else{
-                CreateDecal(hit.point, hit.normal);
-            }
         }
         
         currentMagazineAmmo--;
