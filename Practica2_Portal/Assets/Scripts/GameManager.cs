@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,11 +27,14 @@ public class GameManager : MonoBehaviour
     }
 
     public GameObject gameOver;
+    public Checkpoint checkpoint;
+    private FirstPersonController playerController;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        playerController = FindObjectOfType<FirstPersonController>();
         Cursor.lockState = CursorLockMode.Locked;
     }
     
@@ -46,13 +50,33 @@ public class GameManager : MonoBehaviour
     public void PlayerDied()
     {
         gameOver.SetActive(true);
+        playerController.enabled = false;
+        // Show the mouse cursor
+        Cursor.visible = true;
+
         Cursor.lockState = CursorLockMode.None;
     }
 
     public void Restart()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        // Move the gameObject to the checkpoint position
+        playerController.gameObject.transform.position = checkpoint.transform.position;
+
+        // Activate the FirstPersonController component again
+        Invoke("EnableController", 0.5f);
+
+    }
+    
+    private void EnableController()
+    {
+        // Activate the FirstPersonController component again
+        playerController.enabled = true;
+        gameOver.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void UpdateCheckpoint(Checkpoint checkpoint)
+    {
+        this.checkpoint = checkpoint;
     }
 }

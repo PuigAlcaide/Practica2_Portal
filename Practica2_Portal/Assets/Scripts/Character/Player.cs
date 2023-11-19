@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class Player : MonoBehaviour
 {
@@ -24,21 +25,15 @@ public class Player : MonoBehaviour
         gunCamera = transform.Find("GunCamera");
     }
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    
-    }
-
      public void Die()
     { 
+        Debug.Log("AAAA");
         GameManager.Instance.PlayerDied();
+        
+        FirstPersonController fpc = GetComponent<FirstPersonController>();
+        if (fpc != null)
+        {
+            fpc.Die();
+        }
     }
 }
