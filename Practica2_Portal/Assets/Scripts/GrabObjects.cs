@@ -116,7 +116,7 @@ public class GrabObjects : MonoBehaviour
     private bool IsAimingObject()
     {
         // Bit shift the index of the layer (9 or 11) to get a bit mask
-        int layerMask = (1 << 9) | (1 << 11);
+        int layerMask = 7;
 
         RaycastHit hit;
         bool isAimingObject = Physics.Raycast(_cam.position, _cam.forward, out hit, _distance, layerMask);

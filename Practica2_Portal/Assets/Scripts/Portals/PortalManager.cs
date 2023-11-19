@@ -105,7 +105,7 @@ public class PortalManager : MonoBehaviour
         Vector3 newPosition = from.portalCamera.position + from.transform.up * 0.05f;
 
         Player.instance.transform.position = newPosition - Vector3.Scale(Player.instance.mainCamera.localPosition, Vector3.up);
-        float rotationAngle = Vector3.SignedAngle(transform.eulerAngles, -to.transform.eulerAngles, Vector3.up);
+        float rotationAngle = Vector3.SignedAngle(transform.eulerAngles, to.transform.eulerAngles, Vector3.up);
         //player.eulerAngles += new Vector3(0, rotationAngle, 0);
         Player.instance.transform.eulerAngles = new Vector3(0, from.portalCamera.eulerAngles.y, 0);
 
