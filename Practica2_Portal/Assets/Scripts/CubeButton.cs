@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CubeButton : Button
 {
-    override OnTriggerEnter
+    //override OnTriggerEnter
     private void OnTriggerEnter(Collider other)
     {
         

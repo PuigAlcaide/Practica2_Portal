@@ -10,6 +10,7 @@ TagManager:
   - Decal
   - Cube
   - Turret
+  - GrabObject
   layers:
   - Default
   - TransparentFX
@@ -17,17 +18,17 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Portal
+  - Traveler
+  - GunLayer
+  - GrabObject
+  - Player
+  - Wall
+  - PortalFloor
+  - ObjectTravelling
+  - PlayerTravelling
+  - PortalBorder
+  - Clone
   - 
   - 
   - 

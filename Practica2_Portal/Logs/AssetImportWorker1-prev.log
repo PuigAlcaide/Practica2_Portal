@@ -15,7 +15,7 @@ C:/Users/Carlos/Documents/GitHub/Practica2_Portal/Practica2_Portal
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50339
+58699
 Successfully changed project path to: C:/Users/Carlos/Documents/GitHub/Practica2_Portal/Practica2_Portal
 C:/Users/Carlos/Documents/GitHub/Practica2_Portal/Practica2_Portal
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Carlos/Documents/GitHub/Practica2_Portal/Practica2_Portal
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17844] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2564723829 [EditorId] 2564723829 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TGI3P0CU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28980] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 539411126 [EditorId] 539411126 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TGI3P0CU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17844] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2564723829 [EditorId] 2564723829 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TGI3P0CU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28980] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 539411126 [EditorId] 539411126 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TGI3P0CU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 16.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -66,48 +66,50 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     4064 MB
     Driver:   21.21.13.7654
+Shader Tecnocampus/PortalShader uses undefined Queue: 'Geometry '
+Shader Tecnocampus/PortalShader uses undefined Queue: 'Geometry '
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020596 seconds.
-- Loaded All Assemblies, in  0.713 seconds
+Registered in 0.017431 seconds.
+- Loaded All Assemblies, in  0.705 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.552 seconds
-Domain Reload Profiling: 1262ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.386 seconds
+Domain Reload Profiling: 1088ms
+	BeginReloadAssembly (219ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (22ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (21ms)
 	initialDomainReloadingComplete (119ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (192ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (305ms)
-			TypeCache.Refresh (303ms)
-				TypeCache.ScanAssembly (273ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (235ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (553ms)
+	FinalizeReload (387ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (423ms)
+		SetupLoadedEditorAssemblies (282ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (280ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +117,57 @@ Domain Reload Profiling: 1262ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.253 seconds
-Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.038 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.160 seconds
-Domain Reload Profiling: 2407ms
-	BeginReloadAssembly (301ms)
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 2794ms
+	BeginReloadAssembly (237ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (73ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (764ms)
-		LoadAssemblies (551ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1669ms)
+		LoadAssemblies (1534ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (388ms)
-			TypeCache.Refresh (343ms)
-				TypeCache.ScanAssembly (317ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1160ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (220ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (761ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (844ms)
+		SetupLoadedEditorAssemblies (554ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (642ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Tecnocampus/PortalShader uses undefined Queue: 'Geometry '
+Shader Tecnocampus/PortalShader uses undefined Queue: 'Geometry '
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3221 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3703.
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.3 MB). Loaded Objects now: 3711.
 Memory consumption went from 145.6 MB to 144.3 MB.
-Total: 7.529000 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.421500 ms MarkObjects: 6.043500 ms  DeleteObjects: 0.563700 ms)
+Total: 4.604200 ms (FindLiveObjects: 0.432100 ms CreateObjectMapping: 0.365400 ms MarkObjects: 3.413200 ms  DeleteObjects: 0.392400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,100 +185,204 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1415.352750 seconds.
-  path: Assets/PortalAssets/Modelos/Maps/Maps/Materials/turret-body_paint.mat
-  artifactKey: Guid(ae0d2bc7e694f654db06be96043e5117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/Modelos/Maps/Maps/Materials/turret-body_paint.mat using Guid(ae0d2bc7e694f654db06be96043e5117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4757507bcfedb11a181349a18528ce') in 0.245212 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 4.070447 seconds.
-  path: Assets/PortalAssets/portal-2-door/Materials/Frame_albedo.mat
-  artifactKey: Guid(6257980dbbf3d394d93e1ff137e09f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/Materials/Frame_albedo.mat using Guid(6257980dbbf3d394d93e1ff137e09f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c5e0383dd42c3ac31fc10dc13c4d4a') in 0.065150 seconds
+  Time since last request: 854551.705498 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(10493677f5d37c942affbefd6696ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(10493677f5d37c942affbefd6696ec48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97620cd9863cc26507daa64256290b82') in 0.002728 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.837235 seconds.
-  path: Assets/PortalAssets/portal-2-door/source/Materials/Frame.mat
-  artifactKey: Guid(f69d60f9e83f8164eb21f113f52ab767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/source/Materials/Frame.mat using Guid(f69d60f9e83f8164eb21f113f52ab767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4419bb27d760e14904869e5139a7572b') in 0.020208 seconds
+  Time since last request: 48.338875 seconds.
+  path: Assets/PortalBlueClosed.png
+  artifactKey: Guid(6d22774eee2992a449f1cb1357512f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalBlueClosed.png using Guid(6d22774eee2992a449f1cb1357512f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f17e94718c0350a885cf88f0a5636b') in 0.237970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PortalBlueOpen - copia.png
+  artifactKey: Guid(7b6d759405475d74eba0b617e26025ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalBlueOpen - copia.png using Guid(7b6d759405475d74eba0b617e26025ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3f0d32f58d558463f32847e10b25e7') in 0.040230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PortalMesh.fbx
+  artifactKey: Guid(f2b3398bcf3470142812bf5d21abe0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalMesh.fbx using Guid(f2b3398bcf3470142812bf5d21abe0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2e10368c2a8769cb77e4afc897657d') in 0.142137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PortalClosedTexture.png
+  artifactKey: Guid(568c9bc8ee5d2f84e9e8b832b5e79f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalClosedTexture.png using Guid(568c9bc8ee5d2f84e9e8b832b5e79f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27f40d5e4fb2269065f0fb9b16e7dd8') in 0.057283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PortalOrangeOpen.png
+  artifactKey: Guid(5f2e8f95cac319f429e9e1eaa7053438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalOrangeOpen.png using Guid(5f2e8f95cac319f429e9e1eaa7053438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f6ad4ebf875aea8077525052877f67') in 0.044552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 56.710804 seconds.
+  path: Assets/Terrain/Rabbits/Materials/Rabbit1.mat
+  artifactKey: Guid(11f39b2ab10a2184d84e62f1906a4a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Rabbits/Materials/Rabbit1.mat using Guid(11f39b2ab10a2184d84e62f1906a4a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3126bc12f6c4a65c223856f5d794186e') in 0.046101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.795136 seconds.
+  path: Assets/Materials/M_PortalB.mat
+  artifactKey: Guid(bcef49168cd7636418568b8b251ae9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/M_PortalB.mat using Guid(bcef49168cd7636418568b8b251ae9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ba4372bbb2984857fbe84201902522') in 0.075532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(7fc6b9ad0082026438388e6a2b21512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(7fc6b9ad0082026438388e6a2b21512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39be6350b413b6dc04908993ffd0bf9d') in 0.026341 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.761309 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/Bottom_ao.png
-  artifactKey: Guid(56861ee0bb10b204e84137d4af94ad05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/Bottom_ao.png using Guid(56861ee0bb10b204e84137d4af94ad05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721c90a7bf7434c5e5bdd0120e24c5d2') in 0.045027 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/OrangePortalClosed.mat
+  artifactKey: Guid(af13083f17e0bc042a0d1b484e28d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OrangePortalClosed.mat using Guid(af13083f17e0bc042a0d1b484e28d93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbad0d88b928e7196458f50620dc9de') in 0.338464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Materials/PortalBlue_Clean.mat
+  artifactKey: Guid(c16edaf60410a534eb1736e4336ee27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PortalBlue_Clean.mat using Guid(c16edaf60410a534eb1736e4336ee27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536cf002f91d13a32d051426d11a445a') in 0.188996 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/DoorMetallic.png
-  artifactKey: Guid(372a4c52184f18746b41e93eac443a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/DoorMetallic.png using Guid(372a4c52184f18746b41e93eac443a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427813cdbc160899765b7931685f78f9') in 0.029423 seconds
+  Time since last request: 43.462576 seconds.
+  path: Assets/Models/PortalRing.fbx
+  artifactKey: Guid(d1db67a24175b394d9a0bbe5ee7ec89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PortalRing.fbx using Guid(d1db67a24175b394d9a0bbe5ee7ec89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a08dbac769e26ed290b649b48108af5') in 0.041403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 10.511016 seconds.
+  path: Assets/PortalAssets/portal-2-door/textures/Bottom_metallic.png
+  artifactKey: Guid(7a2606e828296c14984bea92b5c334da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/portal-2-door/textures/Bottom_metallic.png using Guid(7a2606e828296c14984bea92b5c334da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809bde84c389167f9f74634dcfd8d13') in 0.063670 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/DoorSPEC.png
-  artifactKey: Guid(54fc0f26a6948f043888c3a0860e464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/DoorSPEC.png using Guid(54fc0f26a6948f043888c3a0860e464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afffc80d257c2d4b9811ac922a16a3e') in 0.040346 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/PortalAssets/portal-2-door/textures/DoorGLOSS.png
+  artifactKey: Guid(866987ce07517cf43a63687575879a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/portal-2-door/textures/DoorGLOSS.png using Guid(866987ce07517cf43a63687575879a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6764bb7ff02ff7775aca50c11f247560') in 0.054949 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/Frame_albedo.png
-  artifactKey: Guid(1ca9b7e34ff06104685b9508509d5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/Frame_albedo.png using Guid(1ca9b7e34ff06104685b9508509d5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd340d99df5cebae90d1a6873055d529b') in 0.034728 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/PortalAssets/portal-2-door/textures/Frame_specular.png
+  artifactKey: Guid(4e0ccf5faa522c845b0fbabe098746b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/portal-2-door/textures/Frame_specular.png using Guid(4e0ccf5faa522c845b0fbabe098746b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3bac2bd0789c1d603c6b876c806c7f') in 0.040961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PortalAssets/portal-2-door/textures/Frame_normal.png
+  artifactKey: Guid(ce6b4098f3b52e145a84b2fb7108101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/portal-2-door/textures/Frame_normal.png using Guid(ce6b4098f3b52e145a84b2fb7108101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac3ddb37c4d0ec3f3a312dcc5ebb439') in 0.048231 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/Frame_normal.png
-  artifactKey: Guid(ce6b4098f3b52e145a84b2fb7108101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/Frame_normal.png using Guid(ce6b4098f3b52e145a84b2fb7108101d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac3ddb37c4d0ec3f3a312dcc5ebb439') in 0.044453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/New Material.mat
-  artifactKey: Guid(c0be108d80f9d7b4dadbc4f07dc77dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/New Material.mat using Guid(c0be108d80f9d7b4dadbc4f07dc77dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8631c353c8bee55b92dfd11679aced9') in 0.019084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
   path: Assets/PortalAssets/portal-2-door/textures/Bottom_roughness.png
   artifactKey: Guid(c2234bbabf117114a8e9586b810f0401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/Bottom_roughness.png using Guid(c2234bbabf117114a8e9586b810f0401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0fa0f13104bca4a828e82468a276af') in 0.032452 seconds
+Start importing Assets/PortalAssets/portal-2-door/textures/Bottom_roughness.png using Guid(c2234bbabf117114a8e9586b810f0401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0fa0f13104bca4a828e82468a276af') in 0.037476 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/Frame_ao.png
-  artifactKey: Guid(2b1e67c1b29f7b74097d8d1f00213236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/Frame_ao.png using Guid(2b1e67c1b29f7b74097d8d1f00213236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3493e8c6a5474d7c67157af093ddd9') in 0.036340 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/PortalAssets/portal-2-door/textures/DoorNORMAL.png
+  artifactKey: Guid(829efdf9edc30eb42bcc58bdacc5bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/portal-2-door/textures/DoorNORMAL.png using Guid(829efdf9edc30eb42bcc58bdacc5bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bc6d0a8fbd0a1cd1c644150fd1c54f') in 0.039257 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PortalAssets/portal-2-door/textures/Bottom_metallic.png
-  artifactKey: Guid(7a2606e828296c14984bea92b5c334da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PortalAssets/portal-2-door/textures/Bottom_metallic.png using Guid(7a2606e828296c14984bea92b5c334da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809bde84c389167f9f74634dcfd8d13') in 0.040317 seconds
+  Time since last request: 2.831081 seconds.
+  path: Assets/PortalAssets/Modelos/turre-low.obj
+  artifactKey: Guid(e974cdd27b308e14fadbc5fef531fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/turre-low.obj using Guid(e974cdd27b308e14fadbc5fef531fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20680c878f564b9c30c619997192902') in 0.110639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.211796 seconds.
+  path: Assets/PortalAssets/Modelos/Maps/Maps/turret-body-diff.jpg
+  artifactKey: Guid(8b59196b7594c8542be5bdc9fb3ebb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Maps/Maps/turret-body-diff.jpg using Guid(8b59196b7594c8542be5bdc9fb3ebb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c573b033c865856d052c94cbe617a3') in 0.045117 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PortalAssets/Modelos/Maps/Maps/turret-body_paint.jpg
+  artifactKey: Guid(4695dbeb8fc1f894dbf61171ce358a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Maps/Maps/turret-body_paint.jpg using Guid(4695dbeb8fc1f894dbf61171ce358a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e295bce25caa219bbb3fbb595c3d5172') in 0.048395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.092773 seconds.
+  path: Assets/PortalAssets/textures/portal crossair.png
+  artifactKey: Guid(f489249a30d2e0e4196b9d24b86ac0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/textures/portal crossair.png using Guid(f489249a30d2e0e4196b9d24b86ac0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c819944afbe4a7db5ec9d1d5103e15') in 0.050595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PortalAssets/textures/portal crossair BO.png
+  artifactKey: Guid(8a81d4c668a07384cbb4ec76e1a78117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/textures/portal crossair BO.png using Guid(8a81d4c668a07384cbb4ec76e1a78117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9196667b3bc3ad86468e8b4385a989') in 0.046831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PortalAssets/textures/portal_orange.png
+  artifactKey: Guid(f4cc8ca58dcde58459a377528d007300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/textures/portal_orange.png using Guid(f4cc8ca58dcde58459a377528d007300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b30bf2e6d93e65d929527fa7f11b5a') in 0.036255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.065942 seconds.
+  path: Assets/PortalAssets/Modelos/Materials/Component_3_002Mat.mat
+  artifactKey: Guid(4ca515768f1383544a58ecd0a42cc905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PortalAssets/Modelos/Materials/Component_3_002Mat.mat using Guid(4ca515768f1383544a58ecd0a42cc905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a557eaa75360a67b76792eda6f286143') in 0.021770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
 AssetImportWorker is now disconnected from the server

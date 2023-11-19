@@ -10,7 +10,7 @@ public class Lava : MonoBehaviour
         Debug.Log("Lava");
         if (other.tag.Equals("Player"))
         {
-            other.GetComponent<Character>().Die();
+            other.GetComponent<Player>().Die();
         } 
     }
 }

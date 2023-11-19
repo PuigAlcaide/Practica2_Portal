@@ -34,6 +34,7 @@ public class Turret : MonoBehaviour
             laserLine = gameObject.AddComponent<LineRenderer>();
             laserLine.useWorldSpace = true; // Set to true if you want world space coordinates
             laserLine.material = new Material(Shader.Find("Sprites/Default"));
+            laserLine.material.color= Color.red;
             laserLine.startWidth = 0.1f; // Adjust the width as needed
             laserLine.endWidth = 0.1f;
         }
@@ -56,7 +57,7 @@ public class Turret : MonoBehaviour
         {
             if (hit.collider.gameObject.tag.Equals("Player"))
             {
-                Character character = hit.collider.GetComponent<Character>();
+                Player character = hit.collider.GetComponent<Player>();
                 character.Die();
             }
             else
